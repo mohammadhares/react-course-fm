@@ -1,10 +1,11 @@
-import Home from "./pages/Home"
+import AppRoutes from "./component/AppRoutes"
+import Navbar from "./component/Navbar"
 
 function App() {
   return (
-    <div className="container">
-     <Home />
-    </div>
+    <>
+      <AppRoutes />
+    </>
   )
 }
 

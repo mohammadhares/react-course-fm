@@ -1,7 +1,13 @@
-const NavItem = (props) => {
+import { NavLink } from "react-router-dom";
+
+const NavItem = ({ label , path , classes}) => {
     return (
         <li>
-            <a href="#" className={props.classes}>{props.label}</a>
+            <NavLink 
+                to={path} 
+                className={classes}>
+                {label}
+            </NavLink>
         </li>
     );
 }

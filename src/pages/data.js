@@ -14,3 +14,9 @@ export const cardData = [
         btnText : 'Discover Architecture'
     }
 ]
+
+export const serviceData = [
+        { id: 1, title: "Web Development" },
+        { id: 2, title: "App Development" },
+        { id: 3, title: "SEO Optimization" },
+    ]
